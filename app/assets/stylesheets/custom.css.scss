@@ -29,6 +29,14 @@ textarea {
   }
 }
 
+$navbar: "#ADAD85";
+
+/* colors */
+
+.navbar-inner {
+ background-color: #ADAD85
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
@@ -73,6 +81,7 @@ p {
     color: white;
     text-decoration: none;
   }
+  background-image:url('/assets/logonow.png')
 }
 
 /* footer */
@@ -100,4 +109,19 @@ footer {
     }
   }
 }
+
+.navbar-inner {
+  min-height: $navbarHeight;
+padding-left:  20px;
+ padding-right: 20px;
+ margin-left: auto;
+ margin-right: auto;  
+ border: none;
+ background-image:url('/assets/noise.png');
+ background-repeat:repeat;
+ 
+ 
+}
+
+
 
